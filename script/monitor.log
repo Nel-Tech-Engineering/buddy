@@ -1,0 +1,340 @@
+Mar 12 18:46:30 emily systemd-logind[513]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 12 18:46:30 emily systemd-logind[513]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 12 18:46:30 emily systemd-logind[513]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 12 18:46:30 emily systemd-logind[513]: New seat seat0.
+Mar 12 18:46:31 emily sshd[715]: Server listening on 0.0.0.0 port 22.
+Mar 12 18:46:31 emily sshd[715]: Server listening on :: port 22.
+Mar 12 18:47:32 emily sshd[882]: Accepted publickey for ubuntu from 173.69.194.44 port 54875 ssh2: RSA SHA256:vpZAiydl745bHJUg0dGPLDlTxo+Wi+qreoMc5/2dpDA
+Mar 12 18:47:33 emily sshd[882]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 12 18:47:33 emily systemd-logind[513]: New session 1 of user ubuntu.
+Mar 12 18:47:33 emily systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Mar 12 19:02:19 emily sshd[1040]: error: maximum authentication attempts exceeded for root from 60.54.64.60 port 44994 ssh2 [preauth]
+Mar 12 19:02:19 emily sshd[1040]: Disconnecting authenticating user root 60.54.64.60 port 44994: Too many authentication failures [preauth]
+Mar 12 19:02:31 emily sshd[1042]: error: maximum authentication attempts exceeded for root from 60.54.64.60 port 45091 ssh2 [preauth]
+Mar 12 19:02:31 emily sshd[1042]: Disconnecting authenticating user root 60.54.64.60 port 45091: Too many authentication failures [preauth]
+Mar 12 19:02:46 emily sshd[1044]: error: maximum authentication attempts exceeded for root from 60.54.64.60 port 45171 ssh2 [preauth]
+Mar 12 19:02:46 emily sshd[1044]: Disconnecting authenticating user root 60.54.64.60 port 45171: Too many authentication failures [preauth]
+Mar 12 19:03:05 emily sshd[1046]: error: maximum authentication attempts exceeded for root from 60.54.64.60 port 45269 ssh2 [preauth]
+Mar 12 19:03:05 emily sshd[1046]: Disconnecting authenticating user root 60.54.64.60 port 45269: Too many authentication failures [preauth]
+Mar 12 19:03:22 emily sshd[1049]: error: maximum authentication attempts exceeded for root from 60.54.64.60 port 45380 ssh2 [preauth]
+Mar 12 19:03:22 emily sshd[1049]: Disconnecting authenticating user root 60.54.64.60 port 45380: Too many authentication failures [preauth]
+Mar 12 19:03:28 emily sshd[1051]: Connection closed by authenticating user root 60.54.64.60 port 45461 [preauth]
+Mar 12 19:17:01 emily CRON[1142]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 19:17:01 emily CRON[1142]: pam_unix(cron:session): session closed for user root
+Mar 12 19:21:03 emily sshd[882]: pam_unix(sshd:session): session closed for user ubuntu
+Mar 12 19:21:03 emily sshd[882]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Mar 12 20:35:32 emily systemd-logind[520]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 12 20:35:32 emily systemd-logind[520]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 12 20:35:32 emily systemd-logind[520]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 12 20:35:32 emily systemd-logind[520]: New seat seat0.
+Mar 12 20:35:33 emily sshd[699]: Server listening on 0.0.0.0 port 22.
+Mar 12 20:35:33 emily sshd[699]: Server listening on :: port 22.
+Mar 12 20:47:31 emily sshd[874]: Accepted publickey for ubuntu from 173.69.194.44 port 58640 ssh2: RSA SHA256:vpZAiydl745bHJUg0dGPLDlTxo+Wi+qreoMc5/2dpDA
+Mar 12 20:47:31 emily sshd[874]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 12 20:47:31 emily systemd-logind[520]: New session 1 of user ubuntu.
+Mar 12 20:47:31 emily systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Mar 12 20:47:43 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 12 20:47:43 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 12 20:47:54 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 12 21:03:18 emily sshd[1698]: Invalid user pi from 86.10.129.32 port 49768
+Mar 12 21:03:18 emily sshd[1699]: Invalid user pi from 86.10.129.32 port 49772
+Mar 12 21:03:18 emily sshd[1698]: Connection closed by invalid user pi 86.10.129.32 port 49768 [preauth]
+Mar 12 21:03:18 emily sshd[1699]: Connection closed by invalid user pi 86.10.129.32 port 49772 [preauth]
+Mar 12 21:17:01 emily CRON[1720]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 21:17:01 emily CRON[1720]: pam_unix(cron:session): session closed for user root
+Mar 12 22:07:16 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi mydemo.sh
+Mar 12 22:07:16 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 12 22:07:18 emily sshd[1807]: Invalid user admin from 191.54.242.1 port 38634
+Mar 12 22:07:24 emily sshd[1807]: error: maximum authentication attempts exceeded for invalid user admin from 191.54.242.1 port 38634 ssh2 [preauth]
+Mar 12 22:07:24 emily sshd[1807]: Disconnecting invalid user admin 191.54.242.1 port 38634: Too many authentication failures [preauth]
+Mar 12 22:07:26 emily sshd[1809]: Invalid user admin from 191.54.242.1 port 38688
+Mar 12 22:07:29 emily sshd[1809]: error: maximum authentication attempts exceeded for invalid user admin from 191.54.242.1 port 38688 ssh2 [preauth]
+Mar 12 22:07:29 emily sshd[1809]: Disconnecting invalid user admin 191.54.242.1 port 38688: Too many authentication failures [preauth]
+Mar 12 22:07:32 emily sshd[1811]: Invalid user admin from 191.54.242.1 port 38755
+Mar 12 22:07:35 emily sshd[1811]: error: maximum authentication attempts exceeded for invalid user admin from 191.54.242.1 port 38755 ssh2 [preauth]
+Mar 12 22:07:35 emily sshd[1811]: Disconnecting invalid user admin 191.54.242.1 port 38755: Too many authentication failures [preauth]
+Mar 12 22:07:37 emily sshd[1813]: Invalid user admin from 191.54.242.1 port 38791
+Mar 12 22:07:42 emily sshd[1813]: error: maximum authentication attempts exceeded for invalid user admin from 191.54.242.1 port 38791 ssh2 [preauth]
+Mar 12 22:07:42 emily sshd[1813]: Disconnecting invalid user admin 191.54.242.1 port 38791: Too many authentication failures [preauth]
+Mar 12 22:07:45 emily sshd[1815]: Invalid user admin from 191.54.242.1 port 38863
+Mar 12 22:07:45 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 12 22:07:47 emily sshd[1815]: Connection closed by invalid user admin 191.54.242.1 port 38863 [preauth]
+Mar 12 22:12:51 emily sshd[1825]: error: kex_exchange_identification: Connection closed by remote host
+Mar 12 22:12:53 emily sshd[1826]: Invalid user info from 118.68.229.18 port 60236
+Mar 12 22:12:53 emily sshd[1827]: Invalid user ansible from 118.68.229.18 port 60230
+Mar 12 22:12:53 emily sshd[1830]: Invalid user test from 118.68.229.18 port 60250
+Mar 12 22:12:53 emily sshd[1831]: Invalid user minecraft from 118.68.229.18 port 60240
+Mar 12 22:12:53 emily sshd[1829]: Invalid user deploy from 118.68.229.18 port 60284
+Mar 12 22:12:53 emily sshd[1838]: Invalid user mark from 118.68.229.18 port 60248
+Mar 12 22:12:53 emily sshd[1842]: Invalid user jim from 118.68.229.18 port 60262
+Mar 12 22:12:53 emily sshd[1843]: Invalid user pal from 118.68.229.18 port 60272
+Mar 12 22:12:53 emily sshd[1839]: Invalid user iptv from 118.68.229.18 port 60260
+Mar 12 22:12:53 emily sshd[1826]: Connection closed by invalid user info 118.68.229.18 port 60236 [preauth]
+Mar 12 22:12:53 emily sshd[1834]: Invalid user debian from 118.68.229.18 port 60221
+Mar 12 22:12:53 emily sshd[1836]: Invalid user teamspeak from 118.68.229.18 port 60232
+Mar 12 22:12:53 emily sshd[1840]: Invalid user info from 118.68.229.18 port 60280
+Mar 12 22:12:53 emily sshd[1841]: Invalid user security from 118.68.229.18 port 60276
+Mar 12 22:12:53 emily sshd[1832]: Invalid user craft from 118.68.229.18 port 60210
+Mar 12 22:12:53 emily sshd[1827]: Connection closed by invalid user ansible 118.68.229.18 port 60230 [preauth]
+Mar 12 22:12:53 emily sshd[1829]: Connection closed by invalid user deploy 118.68.229.18 port 60284 [preauth]
+Mar 12 22:12:53 emily sshd[1830]: Connection closed by invalid user test 118.68.229.18 port 60250 [preauth]
+Mar 12 22:12:53 emily sshd[1831]: Connection closed by invalid user minecraft 118.68.229.18 port 60240 [preauth]
+Mar 12 22:12:53 emily sshd[1833]: Connection closed by authenticating user root 118.68.229.18 port 60238 [preauth]
+Mar 12 22:12:53 emily sshd[1837]: Connection closed by authenticating user root 118.68.229.18 port 60274 [preauth]
+Mar 12 22:12:53 emily sshd[1828]: Connection closed by authenticating user root 118.68.229.18 port 60214 [preauth]
+Mar 12 22:12:53 emily sshd[1838]: Connection closed by invalid user mark 118.68.229.18 port 60248 [preauth]
+Mar 12 22:12:53 emily sshd[1842]: Connection closed by invalid user jim 118.68.229.18 port 60262 [preauth]
+Mar 12 22:12:53 emily sshd[1843]: Connection closed by invalid user pal 118.68.229.18 port 60272 [preauth]
+Mar 12 22:12:53 emily sshd[1840]: Connection closed by invalid user info 118.68.229.18 port 60280 [preauth]
+Mar 12 22:12:53 emily sshd[1839]: Connection closed by invalid user iptv 118.68.229.18 port 60260 [preauth]
+Mar 12 22:12:53 emily sshd[1835]: Connection closed by authenticating user root 118.68.229.18 port 60212 [preauth]
+Mar 12 22:12:53 emily sshd[1832]: Connection closed by invalid user craft 118.68.229.18 port 60210 [preauth]
+Mar 12 22:12:53 emily sshd[1834]: Connection closed by invalid user debian 118.68.229.18 port 60221 [preauth]
+Mar 12 22:12:53 emily sshd[1836]: Connection closed by invalid user teamspeak 118.68.229.18 port 60232 [preauth]
+Mar 12 22:12:53 emily sshd[1841]: Connection closed by invalid user security 118.68.229.18 port 60276 [preauth]
+Mar 12 22:12:54 emily sshd[1863]: Invalid user user3 from 118.68.229.18 port 60244
+Mar 12 22:12:54 emily sshd[1862]: Invalid user steam from 118.68.229.18 port 60224
+Mar 12 22:12:54 emily sshd[1866]: Invalid user ubnt from 118.68.229.18 port 60278
+Mar 12 22:12:54 emily sshd[1863]: Connection closed by invalid user user3 118.68.229.18 port 60244 [preauth]
+Mar 12 22:12:54 emily sshd[1864]: Connection closed by authenticating user root 118.68.229.18 port 60228 [preauth]
+Mar 12 22:12:54 emily sshd[1865]: Connection closed by authenticating user root 118.68.229.18 port 60264 [preauth]
+Mar 12 22:12:54 emily sshd[1862]: Connection closed by invalid user steam 118.68.229.18 port 60224 [preauth]
+Mar 12 22:12:54 emily sshd[1866]: Connection closed by invalid user ubnt 118.68.229.18 port 60278 [preauth]
+Mar 12 22:12:56 emily sshd[1872]: Invalid user ubnt from 118.68.229.18 port 60252
+Mar 12 22:12:56 emily sshd[1879]: Invalid user user04 from 118.68.229.18 port 60270
+Mar 12 22:12:56 emily sshd[1873]: Invalid user test from 118.68.229.18 port 60226
+Mar 12 22:12:56 emily sshd[1875]: Invalid user postgres from 118.68.229.18 port 60268
+Mar 12 22:12:56 emily sshd[1877]: Invalid user carlos from 118.68.229.18 port 60242
+Mar 12 22:12:56 emily sshd[1880]: Invalid user jack from 118.68.229.18 port 60256
+Mar 12 22:12:56 emily sshd[1876]: Invalid user nginx from 118.68.229.18 port 60246
+Mar 12 22:12:56 emily sshd[1881]: Invalid user amin from 118.68.229.18 port 60254
+Mar 12 22:12:56 emily sshd[1874]: Invalid user devops from 118.68.229.18 port 60282
+Mar 12 22:12:56 emily sshd[1872]: Connection closed by invalid user ubnt 118.68.229.18 port 60252 [preauth]
+Mar 12 22:12:56 emily sshd[1877]: Connection closed by invalid user carlos 118.68.229.18 port 60242 [preauth]
+Mar 12 22:12:56 emily sshd[1873]: Connection closed by invalid user test 118.68.229.18 port 60226 [preauth]
+Mar 12 22:12:56 emily sshd[1879]: Connection closed by invalid user user04 118.68.229.18 port 60270 [preauth]
+Mar 12 22:12:56 emily sshd[1875]: Connection closed by invalid user postgres 118.68.229.18 port 60268 [preauth]
+Mar 12 22:12:56 emily sshd[1876]: Connection closed by invalid user nginx 118.68.229.18 port 60246 [preauth]
+Mar 12 22:12:56 emily sshd[1880]: Connection closed by invalid user jack 118.68.229.18 port 60256 [preauth]
+Mar 12 22:12:56 emily sshd[1881]: Connection closed by invalid user amin 118.68.229.18 port 60254 [preauth]
+Mar 12 22:12:56 emily sshd[1874]: Connection closed by invalid user devops 118.68.229.18 port 60282 [preauth]
+Mar 12 22:12:56 emily sshd[1878]: Connection closed by authenticating user root 118.68.229.18 port 60222 [preauth]
+Mar 12 22:17:01 emily CRON[1901]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 22:17:01 emily CRON[1901]: pam_unix(cron:session): session closed for user root
+Mar 12 22:50:26 emily sshd[874]: pam_unix(sshd:session): session closed for user ubuntu
+Mar 12 22:50:26 emily sshd[874]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Mar 13 02:25:48 emily systemd-logind[521]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 13 02:25:48 emily systemd-logind[521]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 13 02:25:48 emily systemd-logind[521]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 13 02:25:48 emily systemd-logind[521]: New seat seat0.
+Mar 13 02:25:49 emily sshd[714]: Server listening on 0.0.0.0 port 22.
+Mar 13 02:25:49 emily sshd[714]: Server listening on :: port 22.
+Mar 13 02:30:23 emily sshd[885]: Accepted publickey for ubuntu from 173.69.194.44 port 62048 ssh2: RSA SHA256:vpZAiydl745bHJUg0dGPLDlTxo+Wi+qreoMc5/2dpDA
+Mar 13 02:30:23 emily sshd[885]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 13 02:30:23 emily systemd-logind[521]: New session 1 of user ubuntu.
+Mar 13 02:30:23 emily systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Mar 13 03:01:10 emily sshd[885]: pam_unix(sshd:session): session closed for user ubuntu
+Mar 13 03:01:10 emily sshd[885]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Mar 13 22:15:56 emily systemd-logind[519]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 13 22:15:56 emily systemd-logind[519]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 13 22:15:56 emily systemd-logind[519]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 13 22:15:56 emily systemd-logind[519]: New seat seat0.
+Mar 13 22:15:57 emily sshd[698]: Server listening on 0.0.0.0 port 22.
+Mar 13 22:15:57 emily sshd[698]: Server listening on :: port 22.
+Mar 13 22:16:10 emily sshd[859]: Connection closed by 173.69.194.44 port 64097 [preauth]
+Mar 13 22:16:23 emily sshd[863]: Accepted publickey for ubuntu from 173.69.194.44 port 64100 ssh2: RSA SHA256:vpZAiydl745bHJUg0dGPLDlTxo+Wi+qreoMc5/2dpDA
+Mar 13 22:16:23 emily sshd[863]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 13 22:16:23 emily systemd-logind[519]: New session 1 of user ubuntu.
+Mar 13 22:16:23 emily systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Mar 13 22:16:33 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 13 22:16:33 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 13 22:16:43 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 22:17:01 emily CRON[1320]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 22:17:01 emily CRON[1320]: pam_unix(cron:session): session closed for user root
+Mar 13 22:17:41 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi mydemo.sh
+Mar 13 22:17:41 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 13 22:26:02 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 22:37:33 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi mydemo.sh
+Mar 13 22:37:33 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 13 22:39:09 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 22:40:00 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi mydemo.sh
+Mar 13 22:40:00 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 13 22:41:07 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 22:42:34 emily sshd[1381]: Connection reset by 183.106.205.242 port 63341 [preauth]
+Mar 13 22:43:22 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi mydemo.sh
+Mar 13 22:43:22 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 13 22:44:24 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 23:11:44 emily sshd[1503]: error: kex_exchange_identification: Connection closed by remote host
+Mar 13 23:11:45 emily sshd[1504]: Invalid user ubnt from 43.252.230.62 port 48960
+Mar 13 23:11:45 emily sshd[1505]: Invalid user mgmt from 43.252.230.62 port 48958
+Mar 13 23:11:45 emily sshd[1504]: Connection closed by invalid user ubnt 43.252.230.62 port 48960 [preauth]
+Mar 13 23:11:45 emily sshd[1505]: Connection closed by invalid user mgmt 43.252.230.62 port 48958 [preauth]
+Mar 13 23:13:31 emily sshd[863]: pam_unix(sshd:session): session closed for user ubuntu
+Mar 13 23:13:31 emily sshd[863]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Mar 13 23:16:47 emily systemd-logind[520]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 13 23:16:47 emily systemd-logind[520]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 13 23:16:47 emily systemd-logind[520]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 13 23:16:47 emily systemd-logind[520]: New seat seat0.
+Mar 13 23:16:48 emily sshd[700]: Server listening on 0.0.0.0 port 22.
+Mar 13 23:16:48 emily sshd[700]: Server listening on :: port 22.
+Mar 13 23:17:01 emily CRON[857]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 23:17:01 emily CRON[857]: pam_unix(cron:session): session closed for user root
+Mar 13 23:17:22 emily sshd[860]: Accepted publickey for ubuntu from 173.69.194.44 port 65465 ssh2: RSA SHA256:vpZAiydl745bHJUg0dGPLDlTxo+Wi+qreoMc5/2dpDA
+Mar 13 23:17:22 emily sshd[860]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 13 23:17:22 emily systemd-logind[520]: New session 2 of user ubuntu.
+Mar 13 23:17:22 emily systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Mar 13 23:41:29 emily sshd[1030]: Connection reset by 198.235.24.9 port 61416 [preauth]
+Mar 14 00:00:01 emily CRON[1057]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 00:00:01 emily CRON[1058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 00:00:01 emily CRON[1058]: pam_unix(cron:session): session closed for user root
+Mar 14 00:00:02 emily CRON[1057]: pam_unix(cron:session): session closed for user root
+Mar 14 00:06:13 emily sshd[860]: pam_unix(sshd:session): session closed for user ubuntu
+Mar 14 00:06:13 emily sshd[860]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Mar 14 23:12:48 emily systemd-logind[519]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 14 23:12:48 emily systemd-logind[519]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 14 23:12:48 emily systemd-logind[519]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 14 23:12:48 emily systemd-logind[519]: New seat seat0.
+Mar 14 23:12:49 emily sshd[699]: Server listening on 0.0.0.0 port 22.
+Mar 14 23:12:49 emily sshd[699]: Server listening on :: port 22.
+Mar 14 23:13:14 emily sshd[857]: Accepted publickey for ubuntu from 173.69.194.44 port 53523 ssh2: RSA SHA256:vpZAiydl745bHJUg0dGPLDlTxo+Wi+qreoMc5/2dpDA
+Mar 14 23:13:14 emily sshd[857]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 14 23:13:14 emily systemd-logind[519]: New session 1 of user ubuntu.
+Mar 14 23:13:14 emily systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Mar 14 23:17:01 emily CRON[1073]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 23:17:01 emily CRON[1073]: pam_unix(cron:session): session closed for user root
+Mar 14 23:23:03 emily sshd[1085]: Invalid user admin from 59.127.44.87 port 60822
+Mar 14 23:23:10 emily sshd[1085]: error: maximum authentication attempts exceeded for invalid user admin from 59.127.44.87 port 60822 ssh2 [preauth]
+Mar 14 23:23:10 emily sshd[1085]: Disconnecting invalid user admin 59.127.44.87 port 60822: Too many authentication failures [preauth]
+Mar 14 23:23:18 emily sshd[1088]: Invalid user admin from 59.127.44.87 port 60893
+Mar 14 23:23:33 emily sshd[1088]: error: maximum authentication attempts exceeded for invalid user admin from 59.127.44.87 port 60893 ssh2 [preauth]
+Mar 14 23:23:33 emily sshd[1088]: Disconnecting invalid user admin 59.127.44.87 port 60893: Too many authentication failures [preauth]
+Mar 14 23:23:40 emily sshd[1090]: Invalid user admin from 59.127.44.87 port 60953
+Mar 14 23:23:48 emily sshd[1090]: error: maximum authentication attempts exceeded for invalid user admin from 59.127.44.87 port 60953 ssh2 [preauth]
+Mar 14 23:23:48 emily sshd[1090]: Disconnecting invalid user admin 59.127.44.87 port 60953: Too many authentication failures [preauth]
+Mar 14 23:23:55 emily sshd[1092]: Invalid user admin from 59.127.44.87 port 32787
+Mar 14 23:24:13 emily sshd[1092]: error: maximum authentication attempts exceeded for invalid user admin from 59.127.44.87 port 32787 ssh2 [preauth]
+Mar 14 23:24:13 emily sshd[1092]: Disconnecting invalid user admin 59.127.44.87 port 32787: Too many authentication failures [preauth]
+Mar 14 23:24:21 emily sshd[1095]: Invalid user admin from 59.127.44.87 port 32859
+Mar 14 23:24:45 emily sshd[1095]: Connection closed by invalid user admin 59.127.44.87 port 32859 [preauth]
+Mar 14 23:27:46 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vi mydemo.sh
+Mar 14 23:27:46 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 14 23:27:58 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 23:28:35 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vi mdemi.sh
+Mar 14 23:28:35 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 14 23:29:53 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 23:32:08 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi scppasscode.sh
+Mar 14 23:32:08 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 14 23:34:30 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 23:35:13 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi mydemo.sh
+Mar 14 23:35:13 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 14 23:36:49 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 23:39:05 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi mydemo.sh
+Mar 14 23:39:05 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 14 23:39:18 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 23:39:32 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi scppasscode.sh
+Mar 14 23:39:32 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 14 23:40:35 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 23:40:38 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi scppasscode.sh
+Mar 14 23:40:38 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 14 23:52:39 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 23:56:55 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/chmod +x scppasscode.sh
+Mar 14 23:56:55 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 14 23:56:55 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 15 00:00:01 emily CRON[1187]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 00:00:01 emily CRON[1186]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 00:00:01 emily CRON[1187]: pam_unix(cron:session): session closed for user root
+Mar 15 00:00:01 emily CRON[1186]: pam_unix(cron:session): session closed for user root
+Mar 15 00:00:30 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/apt install sshpass
+Mar 15 00:00:30 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 15 00:00:34 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 15 00:02:30 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi mydemo.sh
+Mar 15 00:02:30 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 15 00:02:44 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 15 00:12:41 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi scppasscode.sh
+Mar 15 00:12:41 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 15 00:13:29 emily sshd[1482]: Connection closed by 172.105.128.12 port 43610 [preauth]
+Mar 15 00:13:30 emily sshd[1484]: Connection closed by 172.105.128.12 port 43624 [preauth]
+Mar 15 00:13:30 emily sshd[1486]: Connection closed by 172.105.128.12 port 43636 [preauth]
+Mar 15 00:14:00 emily sshd[1488]: error: kex_exchange_identification: Connection closed by remote host
+Mar 15 00:17:01 emily CRON[1492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 00:17:01 emily CRON[1492]: pam_unix(cron:session): session closed for user root
+Mar 15 00:17:41 emily sshd[1496]: error: kex_exchange_identification: read: Connection reset by peer
+Mar 15 00:20:23 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 15 00:24:42 emily sshd[1541]: error: kex_exchange_identification: read: Connection reset by peer
+Mar 15 00:24:45 emily sshd[1557]: Invalid user pal from 185.217.131.242 port 33884
+Mar 15 00:24:45 emily sshd[1559]: Invalid user user from 185.217.131.242 port 33950
+Mar 15 00:24:45 emily sshd[1562]: Invalid user ansible from 185.217.131.242 port 33902
+Mar 15 00:24:45 emily sshd[1570]: Invalid user ansadmin from 185.217.131.242 port 33898
+Mar 15 00:24:45 emily sshd[1568]: Invalid user ansible from 185.217.131.242 port 33926
+Mar 15 00:24:45 emily sshd[1565]: Invalid user ubnt from 185.217.131.242 port 33940
+Mar 15 00:24:45 emily sshd[1566]: Invalid user es from 185.217.131.242 port 33874
+Mar 15 00:24:45 emily sshd[1567]: Invalid user db2fenc1 from 185.217.131.242 port 33936
+Mar 15 00:24:45 emily sshd[1542]: Connection closed by authenticating user ubuntu 185.217.131.242 port 33584 [preauth]
+Mar 15 00:24:45 emily sshd[1556]: Invalid user steam from 185.217.131.242 port 33946
+Mar 15 00:24:45 emily sshd[1554]: Invalid user test from 185.217.131.242 port 33912
+Mar 15 00:24:45 emily sshd[1553]: Invalid user spotlight from 185.217.131.242 port 33886
+Mar 15 00:24:45 emily sshd[1555]: Invalid user test from 185.217.131.242 port 33922
+Mar 15 00:24:45 emily sshd[1558]: Invalid user esuser from 185.217.131.242 port 33880
+Mar 15 00:24:45 emily sshd[1557]: Connection closed by invalid user pal 185.217.131.242 port 33884 [preauth]
+Mar 15 00:24:45 emily sshd[1559]: Connection closed by invalid user user 185.217.131.242 port 33950 [preauth]
+Mar 15 00:24:45 emily sshd[1564]: Connection closed by authenticating user root 185.217.131.242 port 33924 [preauth]
+Mar 15 00:24:45 emily sshd[1569]: Connection closed by authenticating user root 185.217.131.242 port 33894 [preauth]
+Mar 15 00:24:45 emily sshd[1570]: Connection closed by invalid user ansadmin 185.217.131.242 port 33898 [preauth]
+Mar 15 00:24:45 emily sshd[1549]: Invalid user dockeradmin from 185.217.131.242 port 33750
+Mar 15 00:24:45 emily sshd[1544]: Invalid user raspberry from 185.217.131.242 port 33752
+Mar 15 00:24:45 emily sshd[1550]: Invalid user naveen from 185.217.131.242 port 33766
+Mar 15 00:24:45 emily sshd[1546]: Invalid user admin from 185.217.131.242 port 33746
+Mar 15 00:24:45 emily sshd[1545]: Invalid user bluecat from 185.217.131.242 port 33760
+Mar 15 00:24:45 emily sshd[1547]: Invalid user postgres from 185.217.131.242 port 33758
+Mar 15 00:24:45 emily sshd[1562]: Connection closed by invalid user ansible 185.217.131.242 port 33902 [preauth]
+Mar 15 00:24:45 emily sshd[1565]: Connection closed by invalid user ubnt 185.217.131.242 port 33940 [preauth]
+Mar 15 00:24:45 emily sshd[1568]: Connection closed by invalid user ansible 185.217.131.242 port 33926 [preauth]
+Mar 15 00:24:45 emily sshd[1567]: Connection closed by invalid user db2fenc1 185.217.131.242 port 33936 [preauth]
+Mar 15 00:24:45 emily sshd[1554]: Connection closed by invalid user test 185.217.131.242 port 33912 [preauth]
+Mar 15 00:24:45 emily sshd[1555]: Connection closed by invalid user test 185.217.131.242 port 33922 [preauth]
+Mar 15 00:24:45 emily sshd[1553]: Connection closed by invalid user spotlight 185.217.131.242 port 33886 [preauth]
+Mar 15 00:24:45 emily sshd[1556]: Connection closed by invalid user steam 185.217.131.242 port 33946 [preauth]
+Mar 15 00:24:45 emily sshd[1561]: Connection closed by authenticating user root 185.217.131.242 port 33928 [preauth]
+Mar 15 00:24:45 emily sshd[1563]: Connection closed by authenticating user root 185.217.131.242 port 33952 [preauth]
+Mar 15 00:24:45 emily sshd[1560]: Connection closed by authenticating user root 185.217.131.242 port 33934 [preauth]
+Mar 15 00:24:45 emily sshd[1551]: Connection closed by authenticating user root 185.217.131.242 port 33770 [preauth]
+Mar 15 00:24:45 emily sshd[1558]: Connection closed by invalid user esuser 185.217.131.242 port 33880 [preauth]
+Mar 15 00:24:45 emily sshd[1566]: Connection closed by invalid user es 185.217.131.242 port 33874 [preauth]
+Mar 15 00:24:45 emily sshd[1549]: Connection closed by invalid user dockeradmin 185.217.131.242 port 33750 [preauth]
+Mar 15 00:24:45 emily sshd[1543]: Connection closed by authenticating user root 185.217.131.242 port 33754 [preauth]
+Mar 15 00:24:45 emily sshd[1550]: Connection closed by invalid user naveen 185.217.131.242 port 33766 [preauth]
+Mar 15 00:24:45 emily sshd[1547]: Connection closed by invalid user postgres 185.217.131.242 port 33758 [preauth]
+Mar 15 00:24:45 emily sshd[1546]: Connection closed by invalid user admin 185.217.131.242 port 33746 [preauth]
+Mar 15 00:24:45 emily sshd[1545]: Connection closed by invalid user bluecat 185.217.131.242 port 33760 [preauth]
+Mar 15 00:24:45 emily sshd[1544]: Connection closed by invalid user raspberry 185.217.131.242 port 33752 [preauth]
+Mar 15 00:24:45 emily sshd[1552]: Connection closed by authenticating user root 185.217.131.242 port 33908 [preauth]
+Mar 15 00:24:45 emily sshd[1548]: Connection closed by authenticating user root 185.217.131.242 port 33756 [preauth]
+Mar 15 00:25:21 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi scppasscode.sh
+Mar 15 00:25:21 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 15 00:26:13 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 15 00:46:53 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi scppasscode.sh
+Mar 15 00:46:53 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 15 00:47:54 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 15 00:51:00 emily sshd[857]: pam_unix(sshd:session): session closed for user ubuntu
+Mar 15 00:51:00 emily sshd[857]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Mar 15 22:54:14 emily systemd-logind[517]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 15 22:54:14 emily systemd-logind[517]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 15 22:54:14 emily systemd-logind[517]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 15 22:54:14 emily systemd-logind[517]: New seat seat0.
+Mar 15 22:54:15 emily sshd[698]: Server listening on 0.0.0.0 port 22.
+Mar 15 22:54:15 emily sshd[698]: Server listening on :: port 22.
+Mar 15 22:56:15 emily sshd[1009]: Accepted publickey for ubuntu from 173.69.194.44 port 56390 ssh2: RSA SHA256:vpZAiydl745bHJUg0dGPLDlTxo+Wi+qreoMc5/2dpDA
+Mar 15 22:56:15 emily sshd[1009]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 15 22:56:15 emily systemd-logind[517]: New session 1 of user ubuntu.
+Mar 15 22:56:15 emily systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Mar 15 23:17:01 emily CRON[1207]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 23:17:01 emily CRON[1207]: pam_unix(cron:session): session closed for user root
+Mar 15 23:18:46 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi scppasscode.sh
+Mar 15 23:18:46 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 15 23:21:27 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 15 23:31:38 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/vi backup.sh
+Mar 15 23:31:38 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 15 23:45:48 emily sudo: pam_unix(sudo:session): session closed for user root
+Mar 15 23:46:25 emily sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/script ; USER=root ; COMMAND=/usr/bin/chmod +x backup.sh
+Mar 15 23:46:25 emily sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Mar 15 23:46:25 emily sudo: pam_unix(sudo:session): session closed for user root
